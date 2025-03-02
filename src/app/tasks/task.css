@@ -1,0 +1,37 @@
+.taskPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+}
+
+.taskCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 248, 238);
+}
+
+.taskCard button{
+    border: none;
+    margin-top: 10px;
+    height: 40px;
+    background-color: rgb(255, 97, 76);
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.taskKey {
+    font-weight: 700;
+    text-transform: capitalize;
+}

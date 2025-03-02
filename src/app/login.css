@@ -1,0 +1,59 @@
+.homePage {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 50%;
+    background-color: rgb(151, 210, 255);
+}
+
+.loginForm div:first-child {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.loginForm input {
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.loginForm button:hover{
+    background-color: gainsboro;
+}
+
+.loginForm button {
+    border: none;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.authResult {
+    --error-color: rgb(185, 26, 26);
+    font-size: 20px;
+    border: 1px solid var(--error-color);
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(255, 200, 185);
+    color: var(--error-color);
+}
